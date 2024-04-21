@@ -16,7 +16,11 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{
 							label: 'Welcome',
-							link: '/welcome'
+							link: '/intro'
+						},
+						{
+							label: 'Donate',
+							link: '/intro/donate'
 						},
 					],
 				}
