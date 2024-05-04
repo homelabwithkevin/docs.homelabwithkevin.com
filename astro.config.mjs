@@ -23,6 +23,10 @@ export default defineConfig({
 							link: '/intro/donate'
 						},
 					],
+				},
+				{
+					label: 'Basics',
+					autogenerate: { directory: 'basics' }
 				}
 			],
 		}),
