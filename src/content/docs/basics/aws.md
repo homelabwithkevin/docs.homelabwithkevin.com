@@ -2,7 +2,7 @@
 Title: AWS
 ---
 
-# Common Services
+# Common Services and Terms
 | Service | Acronym | Description |
 | ------- | ------- | ----------- |
 | EC2 | Elastic Compute Cloud | Virtual Machines |
@@ -19,6 +19,7 @@ Title: AWS
 | Route53 | | DNS Hosting/Provider | 
 | EBS | Elastic Block Storage | Block Storage | 
 | EFS | Elastic File System | |
+| TGW | Transit Gateway | |
 
 # S3
 Source: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
