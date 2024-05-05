@@ -20,6 +20,32 @@ Title: AWS
 | EBS | Elastic Block Storage | Block Storage | 
 | EFS | Elastic File System | |
 
+# S3
+Source: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+
+- Enable Life Cycle rules to delete old versions and move objects between storage tiers
+- Enable Object Lock when first creating the bucket to allow you to create a "write once, read many" bucket
+  - Governance is when root can override objects
+  - Compliance is when no one can override the objects
+
+## Storage Classes
+Source: 
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html#sc-compare
+
+| Class | Minimum Storage Duration | Description |
+| ----- | ------------------------ | ----------- |
+| Standard | None | Default |
+| Express One Zone | None | High-performance, single zone |
+| Intelligent Tiering | None | Automatically move objects, based on their access pattern. Small overhead cost | 
+| Standard-IA | 30-days | Long-lived infrequently accessed data, Minimum storage duration of 30-days |
+| One Zone-IA | 30-days | Long-lived infrequently accessed data, Minimum storage duration of 30-days |
+| Express One Zone | None | Single AZ for latency-sensitive applications |
+| Glacier Instant Retrieval | 90-days | Milisecond retrieval |
+| Glacier Flexible Retrieval | 90-days | 1-5 minute access with expedited retrieval, 5-12 hours with bulk retrieval |
+| Glacier Deep Archive | 180-days | 12-hour retrieval time |
+
+
 # EC2
 Source: https://aws.amazon.com/ec2/instance-types/
 
