@@ -49,3 +49,12 @@ There are a few different types of EBS volumes. Each have their performance and 
 | io1         | Solid state drive |
 | st1         | Hard disk drive |
 | sc1         | Hard disk drive |
+
+# ELB
+Source: https://docs.aws.amazon.com/elasticloadbalancing/
+
+| Load Balancer Type | Description | 
+| ------------------ | ----------- |
+| Application | Operates at layer 7 of the OSI model |
+| Network | Operates at layer 4 of the OSI model |
+| Gateway | Operates at layer 3 of the OSI model |
