@@ -2,9 +2,16 @@
 title: Terraform
 ---
 
-Sources: 
+Terraform tracks your infrastracture with state files. These state files are the source of truth of your infrastructure. 
+
+# Sources 
 - https://github.com/devops-cheat-sheets/terraform-cheat-sheet
 - https://www.pluralsight.com/resources/blog/cloud/the-ultimate-terraform-cheatsheet
+- https://developer.hashicorp.com/terraform/intro
+- https://developer.hashicorp.com/terraform/language/state
+
+
+# Commands
 
 | Command | Description | Example |
 | --------- | ------------------ | ---- |
