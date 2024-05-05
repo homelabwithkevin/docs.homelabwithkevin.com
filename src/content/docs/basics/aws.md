@@ -28,6 +28,17 @@ Source: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
   - Governance is when root can override objects
   - Compliance is when no one can override the objects
 
+## VPC Endpoints for S3
+Source: https://docs.aws.amazon.com/AmazonS3/latest/userguide/privatelink-interface-endpoints.html#types-of-vpc-endpoints-for-s3
+
+| Gateway Endpoint | Interface Endpoint |
+| ---------------- | ------------------ |
+| Use Amazon S3 Public IP addresses | Use private IP address from your VPC to access Amazon S3 |
+| Use the same Amazon S3 DNS Names | Require endpoint-specific Amazon S3 DNS Names |
+| Do not allow access from on-premises | Allow access from on-premises |
+| Do not allow access from another AWS Region | Allow access from a VPC in another AWS Region by using VPC Peering or AWS Transit Gateway |
+| Not Billed | Billed
+
 ## Storage Classes
 Source: 
 - https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html
