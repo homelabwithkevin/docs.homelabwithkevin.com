@@ -2,7 +2,7 @@
 title: AWS
 ---
 
-# Common Services and Terms
+## Common Services and Terms
 | Service | Acronym | Description |
 | ------- | ------- | ----------- |
 | EC2 | Elastic Compute Cloud | Virtual Machines |
@@ -21,7 +21,7 @@ title: AWS
 | EFS | Elastic File System | |
 | TGW | Transit Gateway | |
 
-# S3
+## S3
 Source: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 
 - Enable Life Cycle rules to delete old versions and move objects between storage tiers
@@ -58,7 +58,7 @@ Source:
 | Glacier Deep Archive | 180-days | 12-hour retrieval time |
 
 
-# EC2
+## EC2
 Source: https://aws.amazon.com/ec2/instance-types/
 
 | Instance Type | Description |
@@ -69,11 +69,11 @@ Source: https://aws.amazon.com/ec2/instance-types/
 | c             | Compute optimized |
 | r             | Memory optimized |
 
-# Instance Stores
+## Instance Stores
 Source: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html
 Some instance types have instance stores. These are effectively directly attached to the EC2 and are temporary storage. When you stop the EC2, any data on this temporary storage (instance store) is deleted.
 
-# EBS
+## EBS
 Source: 
 - https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html
 - https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html
@@ -88,7 +88,7 @@ There are a few different types of EBS volumes. Each have their performance and 
 | st1         | Hard disk drive |
 | sc1         | Hard disk drive |
 
-# ELB
+## ELB
 Source: https://docs.aws.amazon.com/elasticloadbalancing/
 
 | Load Balancer Type | Description | 
