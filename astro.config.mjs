@@ -25,13 +25,13 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Costs',
+					autogenerate: { directory: 'costs' }
+				},
+				{
 					label: 'Basics',
 					autogenerate: { directory: 'basics' }
 				}, 
-				{
-					label: 'Costs',
-					autogenerate: { directory: 'costs' }
-				}
 			],
 		}),
 	],
