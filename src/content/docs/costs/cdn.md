@@ -3,6 +3,9 @@ title: CDN
 ---
 
 ## CDN Pricing
+Pricing for Video Encoding, storage, and the like.
+
+## Video Encoding
 ### Notes
 - mux, Azure, and AWS are pricing per minute
 - Cloudflare is a base price

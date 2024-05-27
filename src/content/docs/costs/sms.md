@@ -2,7 +2,7 @@
 title: SMS
 ---
 
-## SMS Pricing
+## Table
 
 | Vendor                                                            | Number | SMS Inbound | SMS Outbound | MMS Inbound | MMS Outbound |
 | ----------------------------------------------------------------- | ------ | ----------- | ------------ | ----------- | ------------ |
