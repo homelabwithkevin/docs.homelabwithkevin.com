@@ -18,10 +18,6 @@ export default defineConfig({
 							label: 'Welcome',
 							link: '/intro'
 						},
-						{
-							label: 'Donate',
-							link: '/intro/donate'
-						},
 					],
 				},
 				{
