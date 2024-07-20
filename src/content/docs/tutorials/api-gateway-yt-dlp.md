@@ -22,6 +22,9 @@ And here's the software we'll be using:
     - Flask
     - yt-dlp
 
+## Diagram
+<img src="/images/api-gateway-yt-dlp.png">
+
 ## Environment Setup
 - python3 –m venv env
 - pip install aws-sam-cli yt-dlp
