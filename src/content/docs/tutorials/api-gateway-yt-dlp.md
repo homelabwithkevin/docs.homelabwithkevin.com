@@ -23,7 +23,7 @@ And here's the software we'll be using:
     - yt-dlp
 
 ## Diagram
-<img src="/images/api-gateway-yt-dlp.png">
+<img src="api-gateway-yt-dlp.png">
 
 ## Environment Setup
 - python3 –m venv env
